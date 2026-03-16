@@ -1,0 +1,16 @@
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw data (large files — regenerate with --skip-fetch)
+data/results/calls_sample.json
+data/results/raw_scores.json
+
+# OS
+.DS_Store
